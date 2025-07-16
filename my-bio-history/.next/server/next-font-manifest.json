@@ -1,1 +1,22 @@
-{"pages":{},"app":{"/home/giuseppe/repo/progetti/my-bio-history-frontend/my-bio-history/src/app/layout":["static/media/569ce4b8f30dc480-s.p.woff2","static/media/93f479601ee12b01-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}
+{
+  "app": {
+    "[project]/Repofront/my-bio-history-frontend/my-bio-history/src/app/contacts/page": [
+      "static/media/06ba6ef833b337bc-s.p.0faac26c.woff2"
+    ],
+    "[project]/Repofront/my-bio-history-frontend/my-bio-history/src/app/login/page": [
+      "static/media/06ba6ef833b337bc-s.p.0faac26c.woff2"
+    ],
+    "[project]/Repofront/my-bio-history-frontend/my-bio-history/src/app/page": [
+      "static/media/06ba6ef833b337bc-s.p.0faac26c.woff2"
+    ],
+    "[project]/Repofront/my-bio-history-frontend/my-bio-history/src/app/profile/page": [
+      "static/media/06ba6ef833b337bc-s.p.0faac26c.woff2"
+    ],
+    "[project]/Repofront/my-bio-history-frontend/my-bio-history/src/app/users/page": [
+      "static/media/06ba6ef833b337bc-s.p.0faac26c.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}
