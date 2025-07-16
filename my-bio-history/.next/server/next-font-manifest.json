@@ -1,18 +1,21 @@
 {
   "app": {
-    "[project]/Repofront/my-bio-history-frontend/my-bio-history/src/app/contacts/page": [
+    "[project]/my-bio-history/src/app/_not-found/page": [
       "static/media/06ba6ef833b337bc-s.p.0faac26c.woff2"
     ],
-    "[project]/Repofront/my-bio-history-frontend/my-bio-history/src/app/login/page": [
+    "[project]/my-bio-history/src/app/about/page": [
       "static/media/06ba6ef833b337bc-s.p.0faac26c.woff2"
     ],
-    "[project]/Repofront/my-bio-history-frontend/my-bio-history/src/app/page": [
+    "[project]/my-bio-history/src/app/login/page": [
       "static/media/06ba6ef833b337bc-s.p.0faac26c.woff2"
     ],
-    "[project]/Repofront/my-bio-history-frontend/my-bio-history/src/app/profile/page": [
+    "[project]/my-bio-history/src/app/page": [
       "static/media/06ba6ef833b337bc-s.p.0faac26c.woff2"
     ],
-    "[project]/Repofront/my-bio-history-frontend/my-bio-history/src/app/users/page": [
+    "[project]/my-bio-history/src/app/profile/page": [
+      "static/media/06ba6ef833b337bc-s.p.0faac26c.woff2"
+    ],
+    "[project]/my-bio-history/src/app/users/page": [
       "static/media/06ba6ef833b337bc-s.p.0faac26c.woff2"
     ]
   },
