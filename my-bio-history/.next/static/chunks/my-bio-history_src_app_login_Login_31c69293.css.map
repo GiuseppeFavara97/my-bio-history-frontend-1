@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///home/alessandro/repo/Repofront/my-bio-history-frontend/my-bio-history/src/app/login/Login.css"],"sourcesContent":[".input {\n    display: flex;\n    align-items: center;\n    justify-content: center; /* aggiunto */\n    margin: auto;\n    width: 480px;\n    height: 80px;\n    border-radius: 10px;\n    padding: 20px;\n    border: 1px solid #141313;\n    \n}\n.areaLogin {\n        margin:auto;\n        align-items: center;\n        background: linear-gradient(to right, #089bdf73, #c00ad8a1);\n        background-size: 1000px 1020px;\n        background-repeat: no-repeat;\n        background-position: center;\n        padding: 40px;\n        border-radius: 10px;\n}\n.buttonLogin {\n        position: absolute;\n        background: linear-gradient(to right, #089bdf73, #c00ad8a1);\n        padding: 40px;\n        border-radius: 10px;\n\n}\n#bottoneaccedi {\n    color: rgb(7, 0, 0);\n    font-size: 150%;\n    font-weight: bolder;\n    border-color: rgb(31, 29, 29);\n    \n}"],"names":[],"mappings":"AAAA;;;;;;;;;;;;AAYA;;;;;;;;AAUA;;;;;;;AAOA","debugId":null}}]
+}

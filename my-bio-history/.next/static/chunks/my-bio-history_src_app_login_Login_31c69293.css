@@ -1,0 +1,36 @@
+/* [project]/my-bio-history/src/app/login/Login.css [app-client] (css) */
+.input {
+  border: 1px solid #141313;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 480px;
+  height: 80px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+}
+
+.areaLogin {
+  background: linear-gradient(to right, rgba(8, 155, 223, .45), rgba(192, 10, 216, .63)) center / 1000px 1020px no-repeat;
+  border-radius: 10px;
+  align-items: center;
+  margin: auto;
+  padding: 40px;
+}
+
+.buttonLogin {
+  background: linear-gradient(to right, rgba(8, 155, 223, .45), rgba(192, 10, 216, .63));
+  border-radius: 10px;
+  padding: 40px;
+  position: absolute;
+}
+
+#bottoneaccedi {
+  color: #070000;
+  border-color: #1f1d1d;
+  font-size: 150%;
+  font-weight: bolder;
+}
+
+/*# sourceMappingURL=my-bio-history_src_app_login_Login_31c69293.css.map*/
