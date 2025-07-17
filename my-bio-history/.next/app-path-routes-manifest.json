@@ -1,5 +1,11 @@
 {
-  "/favicon.ico/route": "/favicon.ico",
   "/_not-found/page": "/_not-found",
-  "/page": "/"
+  "/favicon.ico/route": "/favicon.ico",
+  "/login/page": "/login",
+  "/profile/page": "/profile",
+  "/page": "/",
+  "/about/page": "/about",
+  "/users/page": "/users",
+  "/contacts/page": "/contacts",
+  "/services/page": "/services"
 }
