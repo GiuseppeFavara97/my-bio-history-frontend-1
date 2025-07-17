@@ -3,8 +3,20 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import ClientLayout from "./clientlayout";
 import services from "./services/page";
-import Footer from "./components/footer/footer";
+import Footer from "../components/footer/footer";
 const inter = Inter({ subsets: ["latin"] });
+import { ThemeProvider } from 'next-themes'
+import ToggleTheme  from '../components/toggleTheme';
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+} from "@/components/ui/navigation-menu"
 
 export const metadata: Metadata = {
   title: "Next App",
@@ -13,13 +25,20 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    
+    <html lang="en" suppressHydrationWarning>
+      
       <body className={inter.className}>
+         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <ClientLayout> {children}</ClientLayout>
+          
+
         {/* ClientLayout is a client component */}
-        <ClientLayout>{children}</ClientLayout>
+        
       
-      
-      <Footer/>
+            <Footer/>
+
+      </ThemeProvider>
     </body>
     </html>
   );
