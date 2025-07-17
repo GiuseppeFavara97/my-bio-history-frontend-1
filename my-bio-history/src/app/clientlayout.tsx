@@ -67,31 +67,10 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
         <ToggleTheme />
       </header>
 
-      {/* Sidebar mobile */}
-      {sidebarOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-40">
-          <div className="w-64 bg-white dark:bg-zinc-800 h-full p-4 shadow-lg">
-            <button
-              onClick={toggleSidebar}
-              className="mb-4 text-black dark:text-white"
-            >
-              Chiudi ✕
-            </button>
-            <nav className="flex flex-col gap-4">
-              <a href="/" onClick={toggleSidebar}>Home</a>
-              <a href="/users" onClick={toggleSidebar}>TestUsers</a>
-              <a href="/login" onClick={toggleSidebar}>Login</a>
-              <a href="/profile" onClick={toggleSidebar}>Profilo</a>
-            </nav>
-            <div className="mt-6">
-              <ToggleTheme />
-            </div>
-          </div>
-        </div>
-      )}
-
+     
       {/* Main content */}
       <main className="p-4">{children}</main>
     </>
   );
 }
+

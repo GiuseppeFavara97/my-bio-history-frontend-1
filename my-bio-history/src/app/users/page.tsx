@@ -20,7 +20,7 @@ type User = {
 
 
 
-export default function provausers() {
+export default function Provausers() {
     const [users , setUsers] = useState<User[]>([]); // Stato per memorizzare gli utente
 
     useEffect(() => {

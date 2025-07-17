@@ -21,7 +21,7 @@ interface State {
     users: User[];
 }
 
-export default class UserList extends React.Component<{}, State>{ 
+export default class UserList extends React.Component<Record<string, never>, State> {
     state: State = {
         users: []
     };

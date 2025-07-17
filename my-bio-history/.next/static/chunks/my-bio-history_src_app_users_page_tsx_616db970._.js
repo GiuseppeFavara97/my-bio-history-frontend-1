@@ -6,7 +6,7 @@
 var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
-    "default": ()=>provausers
+    "default": ()=>Provausers
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$1_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@15.4.1_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$1_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@15.4.1_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
@@ -14,23 +14,23 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$ne
 var _s = __turbopack_context__.k.signature();
 "use client";
 ;
-function provausers() {
+function Provausers() {
     _s();
     const [users, setUsers] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$1_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]); // Stato per memorizzare gli utente
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$1_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
-        "provausers.useEffect": ()=>{
+        "Provausers.useEffect": ()=>{
             fetch('http://localhost:3001/api/users') // Chiamata all'API per ottenere gli utenti nel mio DB
             .then({
-                "provausers.useEffect": (response)=>response.json()
-            }["provausers.useEffect"]) // Le api rispondono con un json
+                "Provausers.useEffect": (response)=>response.json()
+            }["Provausers.useEffect"]) // Le api rispondono con un json
             .then({
-                "provausers.useEffect": (data)=>setUsers(data)
-            }["provausers.useEffect"]) // Aggiorno lo stato con dati ricevuti
+                "Provausers.useEffect": (data)=>setUsers(data)
+            }["Provausers.useEffect"]) // Aggiorno lo stato con dati ricevuti
             .catch({
-                "provausers.useEffect": (error)=>console.error('Errore nel recuperare i dati :', error)
-            }["provausers.useEffect"]); // Gestione degli error<
+                "Provausers.useEffect": (error)=>console.error('Errore nel recuperare i dati :', error)
+            }["Provausers.useEffect"]); // Gestione degli error<
         }
-    }["provausers.useEffect"], []);
+    }["Provausers.useEffect"], []);
     console.log('Stato users:', users);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$1_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: [
@@ -183,7 +183,10 @@ function provausers() {
         columnNumber: 5
     }, this);
 }
-_s(provausers, "U3NraTrAJ2neOP8parlcGk9365Y=");
+_s(Provausers, "U3NraTrAJ2neOP8parlcGk9365Y=");
+_c = Provausers;
+var _c;
+__turbopack_context__.k.register(_c, "Provausers");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }

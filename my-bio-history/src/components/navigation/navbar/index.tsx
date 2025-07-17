@@ -35,7 +35,7 @@ const Navbar = ({ toggle }: NavbarProps) => {
 
           {/* Pulsante desktop */}
           <div className="hidden md:block">
-            <Button/>
+           
           </div>
         </div>
       </div>

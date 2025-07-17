@@ -97,7 +97,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/home/giuseppe/repo/progetti/my-bio-history-frontend",
+    "outputFileTracingRoot": "/home/alessandro/repo/mybioITS/my-bio-history-frontend",
     "experimental": {
       "useSkewCookie": false,
       "nodeMiddleware": false,
@@ -156,7 +156,7 @@
       "middlewarePrefetch": "flexible",
       "optimisticClientCache": true,
       "manualClientBasePath": false,
-      "cpus": 27,
+      "cpus": 11,
       "memoryBasedWorkersCount": false,
       "imgOptConcurrency": null,
       "imgOptTimeoutInSeconds": 7,
@@ -287,10 +287,10 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts",
     "turbopack": {
-      "root": "/home/giuseppe/repo/progetti/my-bio-history-frontend"
+      "root": "/home/alessandro/repo/mybioITS/my-bio-history-frontend"
     }
   },
-  "appDir": "/home/giuseppe/repo/progetti/my-bio-history-frontend/my-bio-history",
+  "appDir": "/home/alessandro/repo/mybioITS/my-bio-history-frontend/my-bio-history",
   "relativeAppDir": "my-bio-history",
   "files": [
     ".next/routes-manifest.json",

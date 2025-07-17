@@ -1,4 +1,4 @@
-// File: /home/giuseppe/repo/progetti/my-bio-history-frontend/my-bio-history/src/app/page.tsx
+// File: /home/alessandro/repo/mybioITS/my-bio-history-frontend/my-bio-history/src/app/page.tsx
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
